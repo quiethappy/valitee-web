@@ -1,0 +1,22 @@
+.home  {
+  width: 300px;
+  height: 500px;
+  padding: 10px;
+  border: 1px solid #eee;
+  margin: 50px auto;
+}
+
+.button {
+  width: 100px;
+  padding: 4px 12px;
+  background-color: #eee;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.list {
+  cursor: pointer;
+  padding-left: 20px;
+  background-color: antiquewhite;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #eee;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  box-sizing: border-box;
+  color:yellowgreen
+}
+
+.items {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item1 {
+  animation: a1 1s;
+}
+.item2 {
+  animation: a1 1s 1s;
+}
+.item3 {
+  animation: a1 1s 2s;
+}
+
+
+@keyframes a1 {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.3);
+  }
+}
+
+
